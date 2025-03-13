@@ -2,7 +2,7 @@
 
 **Introduction**
 
-This project is all about detecting plant diseases using a deep learning model. It helps in identifying different types of plant diseases by analyzing images of leaves. The model is trained using TensorFlow and can recognize multiple disease types from a dataset.
+This project is all about detecting plant diseases using a deep learning model. It helps in identifying different types of plant diseases by analyzing images of leaves which is delivered with streamlit. The model is trained using TensorFlow and can recognize multiple disease types from a dataset 'test'.
 
 **Dataset**
 
@@ -10,4 +10,4 @@ The dataset is downloaded automatically using kagglehub. It contains plant image
 
 **To run this project, install the necessary libraries:**
 
-ensorflow, numpy, pandas, matplotlib, opencv-python, kagglehub
+Tensorflow, numpy, pandas, matplotlib, opencv-python, kagglehub, streamlit, os, cv2
