@@ -23,7 +23,7 @@ st.sidebar.title('Plant Disease Prediction System for Sustainable Agriculture')
 app_mode = st.sidebar.selectbox('Select page',['Home', 'Disease Recognition'])
 
 from PIL import Image
-img = Image.open('Disease.png')
+img = Image.open('Plant.png')
 st.image(img)
 
 if(app_mode == 'Home'):
